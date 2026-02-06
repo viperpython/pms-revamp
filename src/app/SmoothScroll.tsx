@@ -11,7 +11,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
         lenis?.scrollTo(0, { immediate: true });
     },[pathname,lenis]);
     return(
-        <ReactLenis root options={{ lerp: 0.5, duration: 1.5 }}>
+        <ReactLenis root options={{ lerp: 1, duration: 2 }}>
             {children}
         </ReactLenis>
     );
