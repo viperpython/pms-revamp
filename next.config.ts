@@ -8,6 +8,8 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
     unoptimized: true,
+    basePath: '/pms-revamp',
+  assetPrefix: '/pms-revamp/',
     // Aggressive quality — hero images don't need 75% quality at 4K
     minimumCacheTTL: 31536000, // 1 year cache
   },
